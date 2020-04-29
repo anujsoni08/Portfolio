@@ -1,0 +1,46 @@
+.greet-text,
+.profile-text {
+  display: table;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.avatar-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: table;
+  margin: 0 auto;
+}
+
+.landing-page-div {
+  width: 100%;
+  position: relative;
+  top: 20%;
+  margin: auto;
+}
+
+.landing-grid {
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.jumbotron {
+  margin: 0 5rem;
+  text-align: center;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+@media (min-width: 768px) {
+  .greet-text {
+    font-size: 4.5rem;
+  }
+
+  .profile-text {
+    font-size: 3rem;
+  }
+}
