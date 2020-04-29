@@ -46,6 +46,12 @@ class LandingPage extends Component {
               alt="react"
             />
             <img
+              src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/redux-512.png"
+              className="m-2"
+              style={{ maxWidth: "8vh" }}
+              alt="redux"
+            />
+            <img
               src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-512.png"
               className="m-2"
               style={{ maxWidth: "8vh" }}
