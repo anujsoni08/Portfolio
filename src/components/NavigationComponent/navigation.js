@@ -3,15 +3,14 @@ import "./navigation.scss";
 
 const Navigation = () => {
   return (
-    <div>
-      {" "}
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-default">
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top navbar-light bg-default">
         <a
           class="navbar-brand btn btn-default navbar-btn"
           href="/"
           role="button"
         >
-          Anuj
+          Home
         </a>
         <button
           class="navbar-toggler"
@@ -39,7 +38,7 @@ const Navigation = () => {
           </ul>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 

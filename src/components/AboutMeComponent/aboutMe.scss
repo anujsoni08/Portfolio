@@ -1,10 +1,10 @@
 .about-div {
-  height: 100%;
+  display: flex;
   padding: 3.5rem;
-  padding-bottom: 7rem;
   position: relative;
   text-align: center;
-  margin: 7rem 2rem 2rem 2rem;
+  margin: auto;
+  align-items: center;
 }
 
 .social-media-icon {
@@ -43,4 +43,10 @@
 .icons-list-div {
   display: flex;
   flex-flow: inherit;
+}
+
+@media screen and (max-width: 768px) {
+  .about-div {
+    flex-direction: column;
+  }
 }

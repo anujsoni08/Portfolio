@@ -4,12 +4,12 @@ import "./landingPage.scss";
 class LandingPage extends Component {
   render() {
     return (
-      <div className="landing-page-div">
+      <React.Fragment>
         <div className="justify-content-center align-items-center">
-          <h1 className="greet-text">
+          <h1 className="greet-text text-center">
             Hi, I am <span style={{ color: "rgb(26, 115, 232)" }}> Anuj</span>
           </h1>
-          <div className="profile-text">
+          <div className="profile-text text-center">
             <p>Frontend Developer</p>
           </div>
         </div>
@@ -89,7 +89,7 @@ class LandingPage extends Component {
             />
           </div>
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 }

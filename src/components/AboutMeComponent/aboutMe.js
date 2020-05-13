@@ -5,7 +5,7 @@ import ProfilePic from "../../assets/images/profile.png";
 class AboutMe extends Component {
   render() {
     return (
-      <div class="jumbotron about-div d-flex">
+      <div class="about-div d-flex">
         <div className="flex-1">
           <img src={ProfilePic} class="profile-img" alt="" />
         </div>
@@ -24,7 +24,7 @@ class AboutMe extends Component {
             marching towards my goal.
           </p>
           <p style={{ fontSize: "1.5rem", fontWeight: "bold" }}>Follow me :</p>
-          <div className="d-flex  justify-content-around">
+          <div className="justify-content-around">
             <a
               href="https://github.com/anujsoni08"
               name="github-icon"
