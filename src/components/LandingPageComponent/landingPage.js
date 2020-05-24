@@ -64,12 +64,6 @@ class LandingPage extends Component {
               alt="mongodb"
             />
             <img
-              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png"
-              className="m-2"
-              style={{ maxWidth: "8vh" }}
-              alt="python"
-            />
-            <img
               src="https://image.flaticon.com/icons/svg/888/888859.svg"
               className="m-2"
               style={{ maxWidth: "8vh" }}

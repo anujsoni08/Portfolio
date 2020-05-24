@@ -5,18 +5,18 @@ import ProfilePic from "../../assets/images/profile.png";
 class AboutMe extends Component {
   render() {
     return (
-      <div class="about-div d-flex">
+      <div className="about-div d-flex">
         <div className="flex-1">
-          <img src={ProfilePic} class="profile-img" alt="" />
+          <img src={ProfilePic} className="profile-img" alt="" />
         </div>
-        <div class="card-body flex-2">
-          <p class="card-title name">Anuj Soni</p>
-          <p class="card-subtitle mb-2 job-title">Software Engineer</p>
-          <p class="card-text">
+        <div className="card-body flex-2">
+          <p className="card-title name">Anuj Soni</p>
+          <p className="card-subtitle mb-2 job-title">Software Engineer</p>
+          <p className="card-text">
             "Always eager to learn new technologies and develop new things based
             on it. Thinking out of the box is what I believe in doing."
           </p>
-          <p class="card-text">
+          <p className="card-text">
             I believe learning is a process that never stops, even though you
             may become old enough there are things that you can still learn.A
             simple nature and simple choices, dream of the stars with feet on
@@ -30,10 +30,10 @@ class AboutMe extends Component {
               name="github-icon"
               target="_blank"
               rel="noopener noreferrer"
-              class="card-link"
+              className="card-link"
             >
               <img
-                class="social-media-icon"
+                className="social-media-icon"
                 src="https://image.flaticon.com/icons/svg/2111/2111425.svg"
                 alt="github"
               />
@@ -43,10 +43,10 @@ class AboutMe extends Component {
               name="linkedin-icon"
               target="_blank"
               rel="noopener noreferrer"
-              class="card-link"
+              className="card-link"
             >
               <img
-                class="social-media-icon"
+                className="social-media-icon"
                 src="https://image.flaticon.com/icons/svg/174/174857.svg"
                 alt="linkedin"
               />
@@ -56,10 +56,10 @@ class AboutMe extends Component {
               name="instagram-icon"
               target="_blank"
               rel="noopener noreferrer"
-              class="card-link"
+              className="card-link"
             >
               <img
-                class="social-media-icon"
+                className="social-media-icon"
                 src="https://image.flaticon.com/icons/svg/2111/2111463.svg"
                 alt="instagram"
               />
@@ -69,10 +69,10 @@ class AboutMe extends Component {
               name="facebook-icon"
               target="_blank"
               rel="noopener noreferrer"
-              class="card-link "
+              className="card-link "
             >
               <img
-                class="social-media-icon"
+                className="social-media-icon"
                 src="https://image.flaticon.com/icons/svg/174/174848.svg"
                 alt="facebook"
               />
@@ -82,10 +82,10 @@ class AboutMe extends Component {
               name="twitter-icon"
               target="_blank"
               rel="noopener noreferrer"
-              class="card-link"
+              className="card-link"
             >
               <img
-                class="social-media-icon"
+                className="social-media-icon"
                 src="https://image.flaticon.com/icons/svg/174/174876.svg"
                 alt="twitter"
               />
@@ -95,10 +95,10 @@ class AboutMe extends Component {
               name="mail-icon"
               target="_blank"
               rel="noopener noreferrer"
-              class="card-link"
+              className="card-link"
             >
               <img
-                class="social-media-icon"
+                className="social-media-icon"
                 src="https://image.flaticon.com/icons/svg/732/732200.svg"
                 alt="mail"
               />

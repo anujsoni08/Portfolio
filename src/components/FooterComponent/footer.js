@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer mt-auto py-0">
-        <div className="container py-2 fluid">Developed by Anuj</div>
+        <div className="container py-2 fluid text-center">Developed by Anuj</div>
       </footer>
     );
   }

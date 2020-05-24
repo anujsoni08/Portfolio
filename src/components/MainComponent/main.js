@@ -1,18 +1,24 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { Switch, Route } from "react-router-dom";
 import "./main.scss";
 
-import LandingPage from "../LandingPageComponent/landingPage";
-import AboutMe from "../AboutMeComponent/aboutMe";
-import Projects from "../ProjectComponent/projects";
+const LandingPage = React.lazy(() =>
+  import("../LandingPageComponent/landingPage")
+);
+
+const AboutMe = React.lazy(() => import("../AboutMeComponent/aboutMe"));
+
+const Projects = React.lazy(() => import("../ProjectComponent/projects"));
 
 const Main = () => (
   <main role="main">
+    <Suspense fallback={<div>Loading...</div>}>
       <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route path="/aboutme" component={AboutMe} />
-        <Route path="/projects" component={Projects} />
+        {/* <Route path="/projects" component={Projects} /> */}
       </Switch>
+    </Suspense>
   </main>
 );
 
