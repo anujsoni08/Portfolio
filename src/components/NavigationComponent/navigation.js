@@ -5,7 +5,14 @@ const Navigation = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-md fixed-top navbar-light bg-default">
-        <h3>Anuj</h3>
+        <a
+          className="nav-link btn ml-1"
+          style={{ fontSize: "larger" }}
+          role="button"
+          href="/"
+        >
+          <span className="h3">Anuj Soni</span>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -20,13 +27,33 @@ const Navigation = () => {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
             <li className="nav-item">
-              <a className="nav-link btn ml-1 mr-1" role="button" href="/">
-                Home
+              <a
+                className="nav-link btn ml-1 mr-1"
+                style={{ fontSize: "larger" }}
+                role="button"
+                href="/"
+              >
+                HOME
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link btn ml-1" role="button" href="/aboutme">
-                About Me
+              <a
+                className="nav-link btn ml-1"
+                style={{ fontSize: "larger" }}
+                role="button"
+                href="/projects"
+              >
+                PROJECTS
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link btn ml-1"
+                style={{ fontSize: "larger" }}
+                role="button"
+                href="/about"
+              >
+                ABOUT
               </a>
             </li>
           </ul>

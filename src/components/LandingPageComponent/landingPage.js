@@ -1,4 +1,15 @@
 import React, { Component } from "react";
+
+import ReactImage from "../../assets/images/react.png";
+import ReduxImage from "../../assets/images/redux.png";
+// import GithubImage from "../../assets/images/github.png";
+import JavascriptImage from "../../assets/images/javascript.png";
+import TypescriptImage from "../../assets/images/typescript.png";
+import AngularImage from "../../assets/images/angular.png";
+import BootstrapImage from "../../assets/images/bootstrap.png";
+import CSS3Image from "../../assets/images/css3.png";
+import HTML5Image from "../../assets/images/html5.png";
+
 import "./landingPage.scss";
 
 class LandingPage extends Component {
@@ -7,80 +18,109 @@ class LandingPage extends Component {
       <React.Fragment>
         <div className="justify-content-center align-items-center">
           <h1 className="greet-text text-center">
-            Hi, I am <span style={{ color: "rgb(26, 115, 232)" }}> Anuj</span>
+            Hi, I am{" "}
+            <span style={{ color: "rgb(26, 115, 232)" }}> Anuj Soni</span>
           </h1>
-          <div className="profile-text text-center">
+          {/* <div className="profile-text text-center">
             <p>Frontend Developer</p>
-          </div>
+          </div> */}
         </div>
-        <div className="jumbotron mb-0">
-          <h1 className="mt-2 mb-1">Currently, I'm Working on</h1>
-          <p className="mt-2 mb-2" style={{ fontSize: "1.5rem" }}>
-            Thinking out of the box is what I believe in doing. I believe
-            learning is a process that never stops, even though you may become
-            old enough there are things that you can still learn.
-          </p>
+        <div className="container-fluid mb-3 mt-5">
+          <h1 className="mt-2 mb-1 text-center">Currently, I'm Working on</h1>
           <div className="flex text-md-center mt-2">
             <img
-              src="https://image.flaticon.com/icons/svg/919/919832.svg"
+              src={TypescriptImage}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="typescript"
             />
             <img
-              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-512.png"
+              src={JavascriptImage}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="javascript"
             />
             <img
-              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-512.png"
+              src={AngularImage}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="angular"
             />
             <img
-              src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+              src={ReactImage}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="react"
             />
             <img
-              src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/redux-512.png"
+              src={ReduxImage}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="redux"
             />
             <img
-              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/233_Node_Js_logo-512.png"
-              className="m-2"
-              style={{ maxWidth: "8vh" }}
-              alt="nodejs"
-            />
-            <img
-              src="https://cdn4.iconfinder.com/data/icons/logos-3/512/mongodb-2-512.png"
-              className="m-2"
-              style={{ maxWidth: "8vh" }}
-              alt="mongodb"
-            />
-            <img
-              src="https://image.flaticon.com/icons/svg/888/888859.svg"
+              src={HTML5Image}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="html5"
             />
             <img
-              src="https://image.flaticon.com/icons/svg/888/888847.svg"
+              src={CSS3Image}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="css3"
             />
             <img
-              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/288_Sass_logo-512.png"
+              src={BootstrapImage}
               className="m-2"
               style={{ maxWidth: "8vh" }}
-              alt="sass"
+              alt="bootstrap"
             />
+          </div>
+        </div>
+        <div className="container-fluid d-flex flex-column align-items-center mt-5 mb-5">
+          <h1>Work Experience</h1>
+          <div>
+            <div class="media d-flex">
+              <img
+                class="p-2 flex-shrink-1"
+                src="https://media.licdn.com/dms/image/C510BAQEX1M7aOFtEkw/company-logo_200_200/0?e=2159024400&v=beta&t=9v4BEptjhFkU8xX3fePV_7HSu1xPHc_2ofiT-f2Ms6c"
+                height="100px"
+                width="100px"
+                alt="edfora"
+              />
+              <div class="media-body p-2 w-100">
+                <h5 class="mt-0">Software Developer</h5>
+                Edfora Infotech Pvt. Ltd. (myPAT){" "}
+                <span> (May 2019 - Present)</span>
+              </div>
+            </div>
+            <div class="media d-flex">
+              <img
+                class="p-2 flex-shrink-1"
+                src="https://media.glassdoor.com/sql/1933586/mountblue-technologies-squarelogo-1559564348584.png"
+                height="100px"
+                width="100px"
+                alt="mountblue"
+              />
+              <div class="media-body p-2 w-100">
+                <h5 class="mt-0">Software Developer Trainee</h5>
+                Mountblue Tech. Pvt. Ltd. <span> (Feb 2019 - May 2019)</span>
+              </div>
+            </div>
+            <div class="media d-flex">
+              <img
+                class="p-2 flex-shrink-1"
+                src="https://pbs.twimg.com/profile_images/497488376669274112/W-ugVrRD.jpeg"
+                height="100px"
+                width="100px"
+                alt="venturepact"
+              />
+              <div class="media-body p-2 w-100">
+                <h5 class="mt-0">Technical Development Assistant</h5>
+                Venturepact Pvt. Ltd. <span> (Jun 2018 - Jul 2018)</span>
+              </div>
+            </div>
           </div>
         </div>
       </React.Fragment>

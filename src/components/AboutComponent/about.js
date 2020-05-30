@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./aboutMe.scss";
+import "./about.scss";
 import ProfilePic from "../../assets/images/profile.png";
 
 class AboutMe extends Component {
@@ -34,7 +34,7 @@ class AboutMe extends Component {
             >
               <img
                 className="social-media-icon"
-                src="https://image.flaticon.com/icons/svg/2111/2111425.svg"
+                src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-64.png"
                 alt="github"
               />
             </a>
@@ -47,34 +47,8 @@ class AboutMe extends Component {
             >
               <img
                 className="social-media-icon"
-                src="https://image.flaticon.com/icons/svg/174/174857.svg"
+                src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_in-64.png"
                 alt="linkedin"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/asoni08/"
-              name="instagram-icon"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="card-link"
-            >
-              <img
-                className="social-media-icon"
-                src="https://image.flaticon.com/icons/svg/2111/2111463.svg"
-                alt="instagram"
-              />
-            </a>
-            <a
-              href="https://www.facebook.com/anujsoni333"
-              name="facebook-icon"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="card-link "
-            >
-              <img
-                className="social-media-icon"
-                src="https://image.flaticon.com/icons/svg/174/174848.svg"
-                alt="facebook"
               />
             </a>
             <a
@@ -86,7 +60,7 @@ class AboutMe extends Component {
             >
               <img
                 className="social-media-icon"
-                src="https://image.flaticon.com/icons/svg/174/174876.svg"
+                src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Twitter-64.png"
                 alt="twitter"
               />
             </a>
@@ -99,7 +73,7 @@ class AboutMe extends Component {
             >
               <img
                 className="social-media-icon"
-                src="https://image.flaticon.com/icons/svg/732/732200.svg"
+                src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/gmail-64.png"
                 alt="mail"
               />
             </a>
