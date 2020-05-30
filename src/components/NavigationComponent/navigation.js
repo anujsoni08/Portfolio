@@ -53,7 +53,7 @@ const Navigation = () => {
                 role="button"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://drive.google.com/file/d/1CTw1g1V38nqcJJoO4PSe9HkySgd5COrE/view?usp=sharing"
+                href="https://drive.google.com/file/d/1iBUrl64yaLX9sKkZrJ50cTnfNF1jC-04/view?usp=sharing"
               >
                 RESUME
               </a>
