@@ -51,6 +51,16 @@ const Navigation = () => {
                 className="nav-link btn ml-1"
                 style={{ fontSize: "larger" }}
                 role="button"
+                href="https://drive.google.com/file/d/1CTw1g1V38nqcJJoO4PSe9HkySgd5COrE/view?usp=sharing"
+              >
+                RESUME
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link btn ml-1"
+                style={{ fontSize: "larger" }}
+                role="button"
                 href="/about"
               >
                 ABOUT
