@@ -51,6 +51,8 @@ const Navigation = () => {
                 className="nav-link btn ml-1"
                 style={{ fontSize: "larger" }}
                 role="button"
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://drive.google.com/file/d/1CTw1g1V38nqcJJoO4PSe9HkySgd5COrE/view?usp=sharing"
               >
                 RESUME
