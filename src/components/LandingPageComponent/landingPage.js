@@ -21,9 +21,6 @@ class LandingPage extends Component {
             Hi, I am{" "}
             <span style={{ color: "rgb(26, 115, 232)" }}> Anuj Soni</span>
           </h1>
-          {/* <div className="profile-text text-center">
-            <p>Frontend Developer</p>
-          </div> */}
         </div>
         <div className="container-fluid mb-3 mt-5">
           <h1 className="mt-2 mb-1 text-center">Currently, I'm Working on</h1>
@@ -33,48 +30,64 @@ class LandingPage extends Component {
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="typescript"
+              data-toggle="popover"
+              title="Typescript"
             />
             <img
               src={JavascriptImage}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="javascript"
+              data-toggle="popover"
+              title="Javascript"
             />
             <img
               src={AngularImage}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="angular"
+              data-toggle="popover"
+              title="Angular"
             />
             <img
               src={ReactImage}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="react"
+              data-toggle="popover"
+              title="React"
             />
             <img
               src={ReduxImage}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="redux"
+              data-toggle="popover"
+              title="Redux"
             />
             <img
               src={HTML5Image}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="html5"
+              data-toggle="popover"
+              title="HTML5"
             />
             <img
               src={CSS3Image}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="css3"
+              data-toggle="popover"
+              title="CSS3"
             />
             <img
               src={BootstrapImage}
               className="m-2"
               style={{ maxWidth: "8vh" }}
               alt="bootstrap"
+              data-toggle="popover"
+              title="Bootstrap"
             />
           </div>
         </div>
